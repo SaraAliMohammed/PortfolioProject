@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 400;
+}
+    
+.text-muted {
+    color: #7d97ad;
+}
+
+.text-thin {
+    font-weight: 300;
+}
+
+/*title*/
+.title-super {
+    font-size: 35px;
+}
+
+.title-photo {
+    margin-top: 20px;
+}
+
+.title {
+    text-align: right;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/ 
+@media screen and (max-width: 575px) {
+    
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/*Extra small, Small devices, Medium devices (portrait phones, landscape phones, tablets, 768px and up)*/
+/*@media screen and (min-width: 768px) and (max-width: 991px) { */
+@media screen and (max-width: 991px) { 
+    .title-photo {
+        margin: 10px auto;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .project-photo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) and (max-width: 1199px) { 
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) { 
+
+}
